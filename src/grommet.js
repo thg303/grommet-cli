@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 require('babel-register');
-require('dotenv').config({silent: true});
+import loadenv from './loadenv';
 
 /**
 * NPM dependencies
